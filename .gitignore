@@ -1,0 +1,4 @@
+ChemicalCalculator.egg-info/
+__pycache__/
+ipython/.ipynb_checkpoints/
+data/results.csv
