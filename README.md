@@ -61,11 +61,23 @@ A chemical calculator designed to determine if a product meets the definition of
 
 ## Instructions for installing the package
 
-- Clone the repo with `git clone https://github.com/hwpang/chemical_calculator`
-- Install Anaconda 3 (https://www.anaconda.com/products/individual#Downloads)
-- Use `conda env create -f environment.yml` to create a conda environment `chem_calc`
-- Activate the conda environment by `conda activate chem_calc`
-- Install the package by `pip install -e .` in the package folder
+- Clone the repo by `git clone https://github.com/hwpang/ChemicalCalculator.git`
+
+- There are three options to use this package:
+    - Use docker
+        - Install Docker (https://www.docker.com/get-started/)
+        - Use `docker build -t chem_calc .` in the package folder `ChemicalCalculator` to build image chem_calc
+        - Use `docker run -p 8888:8888 chem_calc` to create a container
+        - On the terminal, a URL similar to `http://127.0.0.1:8888/lab?token=<token>` can be found
+        - Copy the URL and paste in a browser
+    - Use pip install
+        - Run `pip install jupyter numpy pandas rdkit` to install necessary packages
+        - Install the package by `pip install -e .` in the package folder `ChemicalCalculator`
+    - Use conda environment
+        - Install Anaconda 3 (https://www.anaconda.com/products/individual#Downloads)
+        - Use `conda env create -f environment.yml` to create a conda environment `chem_calc`
+        - Activate the conda environment by `conda activate chem_calc`
+        - Install the package by `pip install -e .` in the package folder `ChemicalCalculator`
 
 ## Instructions for running the test suite
 
