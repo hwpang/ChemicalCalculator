@@ -59,7 +59,7 @@ A chemical calculator designed to determine if a product meets the definition of
     - Created ijupyter notebook for example
     - Created `main.py` for example
 
-## Instructions for installing the package
+## Instructions for installing the package and running the test suite
 
 - Clone the repo by `git clone https://github.com/hwpang/ChemicalCalculator.git`
 
@@ -79,8 +79,6 @@ A chemical calculator designed to determine if a product meets the definition of
         - Activate the conda environment by `conda activate chem_calc`
         - Install the package by `pip install -e .` in the package folder `ChemicalCalculator`
 
-## Instructions for running the test suite
-
-- Example code to run the test suite can be found in the `Running_test_suite.ipynb` jupyter notebook in `ipython` folder
+- After installing the necessary packages, navigate to the `ipython` folder to run the test suite in the `Running_test_suite.ipynb` jupyter notebook
     - `cd` to the `ipython` folder
     - `jupyter notebook` to open up the jupyter notebook
