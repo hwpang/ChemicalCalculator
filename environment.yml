@@ -1,6 +1,5 @@
 name: chem_calc
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - numpy
